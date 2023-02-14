@@ -118,6 +118,27 @@ div.info-image {
     flex-direction: column;
 }
 
+/* quote section */
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+p.quoter {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
 /* background colors */
 
 .dark {

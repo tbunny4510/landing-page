@@ -139,6 +139,23 @@ p.quoter {
     font-weight: bold;
 }
 
+/* action sign up section */
+
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 0 25px;
+    border-radius: 15px;
+}
+
+.action-container .sign-up {
+    border: 1px solid #f9faf8;
+    flex: 0 1 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 /* background colors */
 
 .dark {

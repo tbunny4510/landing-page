@@ -1,16 +1,21 @@
-/**{
-    border: 1px solid red;
-}
-*/
-
 body {
     background-color: black;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
 section {
     flex: 4;
+    padding: 25px 15%;
 }
 
 header {
@@ -44,12 +49,45 @@ header, footer {
     margin-right: auto;
 }
 
-.container {
-    width: 80vw;
-    height: 100vh;
-    margin: 0 auto;
+.hero {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+}
+
+div {
+    flex: 1;
+}
+
+h1 {
+    font-size: 34px;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.intro p {
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+
+.sign-up:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
+    text-decoration: none;
+}
+
+.placeholder {
+    background-color: grey;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark {

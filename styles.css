@@ -9,11 +9,11 @@ body {
     padding: 0;
 }
 
-div {
+section {
     flex: 4;
 }
 
-div.header {
+header {
     display: flex;
     padding: 0 15%;
 }
@@ -34,7 +34,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.header, .footer {
+header, footer {
     flex: 1;
 }
 

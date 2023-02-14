@@ -73,14 +73,14 @@ h1 {
 
 /* sign-up link colors */
 
-.intro-sign-up {
+.sign-up {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 5px 25px;
     border-radius: 10px;
 }
 
-.intro-sign-up:hover {
+.sign-up:hover {
     background-color: #e5e7eb;
     color: #3882f6;
     text-decoration: none;
@@ -92,6 +92,30 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div.image {
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+div.info-image {
+    display: flex;
+    flex-direction: column;
 }
 
 /* background colors */

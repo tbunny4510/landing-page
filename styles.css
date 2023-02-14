@@ -45,7 +45,6 @@ header, footer {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
     margin-right: auto;
 }
 
@@ -62,7 +61,6 @@ div {
 
 h1 {
     font-size: 34px;
-    color: #f9faf8;
     padding: 0;
     margin: 0;
 }
@@ -156,10 +154,19 @@ p.quoter {
     margin-bottom: auto;
 }
 
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* background colors */
 
 .dark {
     background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .white {

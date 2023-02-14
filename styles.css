@@ -49,6 +49,8 @@ header, footer {
     margin-right: auto;
 }
 
+/* Intro section */
+
 .hero {
     display: flex;
     gap: 20px;
@@ -69,14 +71,16 @@ h1 {
     color: #e5e7eb;
 }
 
-.sign-up {
+/* sign-up link colors */
+
+.intro-sign-up {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 5px 25px;
     border-radius: 10px;
 }
 
-.sign-up:hover {
+.intro-sign-up:hover {
     background-color: #e5e7eb;
     color: #3882f6;
     text-decoration: none;
@@ -89,6 +93,8 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+/* background colors */
 
 .dark {
     background-color: #1f2937;

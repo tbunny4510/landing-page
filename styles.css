@@ -5,6 +5,10 @@ body {
 }
 
 div {
+    flex: 4;
+}
+
+.header, .footer {
     flex: 1;
 }
 
